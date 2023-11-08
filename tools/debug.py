@@ -23,7 +23,8 @@ if __name__ == '__main__':
     customer2.add_review(restaurant1, 4)
     customer3.add_review(restaurant2, 4)
     
-    
+    print(customer1.full_name())  
+    print(customer1.num_reviews())  
     print(Customer.find_by_name("John Doe")) 
     print(Customer.find_all_by_given_name("Alice")) 
 
